@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #1A73E8;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+.content-container {
+    text-align: center;
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.logo-svg {
+    width: 100px;
+    height: auto;
+    margin-bottom: 2em;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #1A73E8;
+    margin-bottom: 0.5em;
+}
+
+.tagline {
+    font-size: 1.25rem;
+    color: #1A73E8;
+    margin-bottom: 1.5em;
+}
+
+.button {
+    display: inline-block;
+    background-color: #1A73E8;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0B57D0;
+}
+
+.app-links {
+    font-size: 0.9rem;
+    color: #5f6368;
+    margin-top: 1.5em;
+}
+
+.app-links a {
+    color: #5f6368;
+    text-decoration: underline;
+}
+
+.app-links a:hover {
+    color: #1A73E8;
+} 
